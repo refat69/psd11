@@ -1,0 +1,34 @@
+@media (max-width: 576px) { 
+    .nav-menu{
+        text-align: center;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+    }
+    .banner-text{
+        text-align: center;
+    }
+   .img .man-two{
+    padding-bottom: 0;
+}
+    #doctor .card-body{
+        text-align: center;
+    }
+ }
+ @media (min-width: 576px) { 
+    .nav-menu{
+        text-align: center;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+    }
+    .banner-text{
+        text-align: center;
+    }
+   .img .man-two{
+    padding-bottom: 0;
+}
+    #doctor .card-body{
+        text-align: center;
+    }
+ }

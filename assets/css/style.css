@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-main{
+    display: flex;
+}
+.logo-img{
+    margin-top: 20px;
+}
+.logo-text-one{
+    padding-left: 20px;
+    color: #3ca2a2;
+    margin-top: 50px;
+}
+.logo-text-two{
+    padding-left: 550px;
+    color: #d53636;
+    margin-top: 50px;
+}
+.nav-menu{
+    background: #d53636;
+}
+.navbar {
+	--bs-navbar-padding-y: 0;
+}
+.nav-menu ul li{
+    padding-left: 20px;
+}
+.nav-menu ul li a{
+    color: #fff;
+}
+.nav-menu ul li:hover{
+    background: #f18d26;
+    color: #fff;
+}
+.nav-icon{
+    padding-left: 350px;
+    color: #fff;
+}
+#banner{
+    background: url(../images/banner-bg.png)center no-repeat;
+    background-size: cover;
+}
+.banner-text{
+    color: #215a6d;
+}
+.buy-now-btn{
+    padding: 10px 20px;
+    background: #92c7a3;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#find-out{
+    margin-top: 50px;
+}
+#find-out h5{
+    text-align: center;
+    color: #70bbbb;
+    margin-bottom: 20px;
+}
+#find-out img{
+    width: 160px;
+    height: 160px;
+   margin: 0 auto;
+}
+#find-out p{
+    color: #5c8694;
+}
+#find-out .more{
+    color: #70bbbb;
+    text-align: center;
+}
+.more i{
+    color: red;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.card{
+    border: transparent;
+}
+#notice{
+    margin-top: 90px;
+    background: #dfece6;
+}
+.text-border h2{
+    margin:20px 0;
+    color: #215a6d;
+}
+.text-border .line{
+    position: relative;
+}
+.text-border .line::after{
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: red;
+}
+#notice h5{
+    background: #fff;
+    color: #3ca2a2;
+}
+#notice span{
+     background: red;
+     padding: 0px 10px;
+     color: #fff;
+}
+.view-all{
+    margin-top: 20px;
+    color: #d53636;
+}
+#news{
+    margin-top: 100px;
+}
+#news .news-text{
+    color: #3ca2a2;
+    padding-top: 40px;
+}
+.medical-icon-text{
+    padding-top: 40px;
+}
+.medical-icon-text i{
+    color: #d53636;
+}
+.medical-icon-text h6{
+    padding-bottom: 15px;
+    color: #3ca2a2;
+}
+.medical-icon-text .medicine{
+    padding-bottom: 50px;
+}
+.img{
+    padding-top: 40px;
+}
+.img img{
+    margin-bottom: 20px;
+}
+.space{
+    padding-bottom: 88px;
+}
+#doctor{
+    margin-top: 80px;
+}
+#doctor h5{
+    color: #3ca2a2;
+}
+#doctor p{
+    color: gray;
+}
+#doctor h6{
+    color: #d53636;
+}
+footer{
+    margin-top: 100px;
+    background: #222222;
+}
+footer .text{
+    color: #3ca2a2;
+}
+footer h4{
+    color: #3ca2a2;
+}
+footer h6{
+    color: #fff;
+}
+footer h6::first-letter{
+    color: #d53636;
+}
+footer h6 i{
+    color: #d53636;
+}
