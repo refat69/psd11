@@ -3,21 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.logo-main{
-    display: flex;
-}
-.logo-img{
-    margin-top: 20px;
-}
 .logo-text-one{
-    padding-left: 20px;
     color: #3ca2a2;
-    margin-top: 50px;
 }
 .logo-text-two{
-    padding-left: 550px;
     color: #d53636;
-    margin-top: 50px;
 }
 .nav-menu{
     background: #d53636;
@@ -170,6 +160,7 @@ footer h4{
 }
 footer h6{
     color: #fff;
+    padding-top: 10px;
 }
 footer h6::first-letter{
     color: #d53636;
