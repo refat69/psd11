@@ -15,18 +15,25 @@
 <body>
   <section id="logo">
     <div class="container">
-      <div class="logo-main d-flex">
-        <div class="logo-img mt-4">
-          <img src="assets/images/nins-home.png" alt="">
-        </div>
-        <div class="logo-text-one p-5 flex-grow-1">
-          <h4>National institute of Neuro-Sciences& Hospital</h4>
-        </div>
-        <div class="logo-text-two pt-5">
-          <h5>+88-02-9140752</h5>
+      <div class="logo-main">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="logo-img">
+              <img src="assets/images/nins-home.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="logo-text-one text-start">
+              <span>National institute of Neuro-Sciences& Hospital</span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="logo-text-two text-end">
+              <span>+88-02-9140752</span>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
   </section>
     <div class="nav-menu">
       <div class="container">
@@ -63,11 +70,11 @@
                       <a class="nav-link" href="#">Contact us</a>
                     </li>
                   </ul>
-                  <div class="nav-icon">
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-google-plus-g"></i>
-                  </div>
+                </div>
+                <div class="nav-icon">
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-google-plus-g"></i>
                 </div>
               </div>
         </nav>
@@ -135,26 +142,54 @@
             <h2>Notice Board</h2>
             <div class="line"></div>
           </div>
-            <h5 class="d-flex  justify-content-between">
-              Morbi elementum ipsum dolor sit amet... <span>></span></h5>
-            <h5 class="d-flex  justify-content-between">
-              Morbi elementum ipsum dolor sit amet... <span>></span></h5>
-            <h5 class="d-flex  justify-content-between">
-              Morbi elementum ipsum dolor sit amet... <span>></span></h5>
-            <h5 class="d-flex  justify-content-between">
-              Morbi elementum ipsum dolor sit amet... <span>></span></h5>
-            <h5 class="d-flex  justify-content-between">
-              Morbi elementum ipsum dolor sit amet... <span>></span></h5>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Morbi elementum ipsum dolor sit amet...
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Morbi elementum ipsum dolor sit amet...
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Morbi elementum ipsum dolor sit amet...
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
             <div class="view-all">
               <p class="more"><i class="fa-solid fa-arrow-right"></i>See All</p>
             </div>
+        </div>
         </div>
         <div class="col-md-6 ">
           <div class="text-border">
             <h2>Notice Board</h2>
             <div class="line"></div>
           </div>
-          <img src="assets/images/box.png" alt="">
+          <img src="assets/images/box.png" alt="" class="w-100">
         </div>
       </div>
     </div>
@@ -278,21 +313,21 @@
     <div class="row">
       <div class="col-md-3 ">
         <h4>Navigation</h4>
-        <h6>> Home</h6>
-        <h6>> About Us</h6>
-        <h6>> Departments</h6>
+        <h6><i class="fa-solid fa-check"></i> Home</h6>
+        <h6><i class="fa-solid fa-check"></i> About Us</h6>
+        <h6><i class="fa-solid fa-check"></i> Departments</h6>
       </div>
       <div class="col-md-3">
         <h4>Services</h4>
-        <h6>> ICU</h6>
-        <h6>> Emergency Services</h6>
-        <h6>> Ambulance Services</h6>
+        <h6><i class="fa-solid fa-check"></i> ICU</h6>
+        <h6><i class="fa-solid fa-check"></i> Emergency Services</h6>
+        <h6><i class="fa-solid fa-check"></i> Ambulance Services</h6>
       </div>
       <div class="col-md-3">
         <h4>Training</h4>
-        <h6>> Class Schedule</h6>
-        <h6>> Result</h6>
-        <h6>> Student Notice</h6>
+        <h6><i class="fa-solid fa-check"></i> Class Schedule</h6>
+        <h6><i class="fa-solid fa-check"></i> Result</h6>
+        <h6><i class="fa-solid fa-check"></i>Student Notice</h6>
       </div>
       <div class="col-md-3">
         <h4>Contact</h4>

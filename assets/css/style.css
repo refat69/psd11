@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.logo-main{
+margin-top: 20px;
+}
+.logo-img img{
+    width: 50px;
+    height: 50px;
+}
 .logo-text-one{
     color: #3ca2a2;
 }
@@ -26,8 +33,14 @@
     color: #fff;
 }
 .nav-icon{
-    padding-left: 350px;
+    text-align: end !important;
+}
+.nav-icon i{
     color: #fff;
+    padding-left: 20px;
+}
+.nav-icon i:hover{
+    color: #f18d26;
 }
 #banner{
     background: url(../images/banner-bg.png)center no-repeat;
